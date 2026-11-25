@@ -4,6 +4,9 @@ Yeh high-converting modern Single-Page Sales Website aapke **"20,000+ House Floo
 
 ---
 
+## 📥 Main Google Drive Bundle Access Link:
+- **Google Drive Link:** https://drive.google.com/drive/folders/102MGR7h1VDNa5p1lJgfEVPvdWlOtYQ93?usp=drive_link
+
 ## 📁 File Location
 - **Website File:** `C:\Users\pc patel\.gemini\antigravity\scratch\house-plans-landing-page\index.html`
 
