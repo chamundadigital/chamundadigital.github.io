@@ -16,6 +16,24 @@
   <link rel="icon" type="image/jpeg" href="logo.jpg" />
   <link rel="apple-touch-icon" href="logo.jpg" />
   
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2342238456534905');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2342238456534905&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   
@@ -482,7 +500,8 @@
       </div>
 
       <!-- Guarantee Badges below CTA -->
-      <div class="mt-6 flex flex-wrap items-center justify-center gap-3 sm:gap-8 text-xs sm:text-sm text-slate-200 font-semibold">
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-xs sm:text-sm text-slate-200 font-semibold">
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-envelope-circle-check text-emerald-400 text-sm"></i> <span data-en="Instant Email Delivery Guaranteed" data-hi="तुरंत ईमेल डिलीवरी की गारंटी">Instant Email Delivery Guaranteed</span></span>
         <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i> <span data-en="Instant Google Drive Access" data-hi="तुरंत गूगल ड्राइव लिंक">Instant Google Drive Access</span></span>
         <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i> <span data-en="Lifetime Access &amp; Future Updates" data-hi="लाइफटाइम एक्सेस और अपडेट्स">Lifetime Access &amp; Future Updates</span></span>
         <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i> <span data-en="100% Editable CAD Files" data-hi="100% एडिटेबल कैड फाइल्स">100% Editable CAD Files</span></span>
@@ -1573,6 +1592,30 @@
           <p class="text-center text-[11px] text-slate-400 mt-3 flex items-center justify-center gap-2">
             <i class="fa-solid fa-shield-halved text-emerald-400"></i> <span data-en="100% Secure Payment • UPI / Cards / Netbanking" data-hi="100% सुरक्षित भुगतान • यूपीआई / कार्ड / नेटबैंकिंग">100% Secure Payment • UPI / Cards / Netbanking</span>
           </p>
+
+          <!-- INSTANT EMAIL DELIVERY TRUST CALLOUT -->
+          <div class="mt-4 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center gap-3 text-left">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 text-lg border border-emerald-500/40">
+              <i class="fa-solid fa-envelope-circle-check"></i>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-emerald-300" data-en="Instant Automatic Email Delivery Guaranteed" data-hi="तुरंत ईमेल डिलीवरी की 100% गारंटी">Instant Automatic Email Delivery Guaranteed</div>
+              <div class="text-[11px] text-slate-300 leading-tight mt-0.5" data-en="Payment complete hote hi Google Drive access link aapke Email / Gmail ID par turant send ho jayega." data-hi="पेमेंट पूरा होते ही गूगल ड्राइव लिंक आपके ईमेल आईडी पर तुरंत भेज दिया जाएगा।">Payment complete hote hi Google Drive access link aapke Email / Gmail ID par turant send ho jayega.</div>
+            </div>
+          </div>
+
+          <!-- DEVICE COMPATIBILITY CALLOUT -->
+          <div class="mt-3 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700/70 flex items-center justify-around text-center text-xs">
+            <div class="flex items-center gap-1.5 text-slate-200">
+              <i class="fa-solid fa-mobile-screen-button text-cyan-400 text-sm"></i>
+              <span class="text-[11px]" data-en="Mobile: View PDFs &amp; 3D Images" data-hi="मोबाइल: पीडीएफ व 3D इमेजेस देखें"><strong>Mobile:</strong> View PDFs &amp; 3D Images</span>
+            </div>
+            <div class="w-px h-4 bg-slate-700"></div>
+            <div class="flex items-center gap-1.5 text-slate-200">
+              <i class="fa-solid fa-laptop text-amber-400 text-sm"></i>
+              <span class="text-[11px]" data-en="PC/Laptop: Edit AutoCAD DWG" data-hi="लैपटॉप: ऑटोकैड में एडिट करें"><strong>PC/Laptop:</strong> Edit AutoCAD DWG</span>
+            </div>
+          </div>
         </div>
 
         <!-- Support banner -->
@@ -1876,8 +1919,15 @@
         </a>
       </div>
 
-      <p class="text-center text-[11px] text-slate-400 mt-4 sm:mt-5" data-en="🔒 Instant automatic Google Drive access delivered immediately after payment." data-hi="🔒 भुगतान के तुरंत बाद स्वचालित गूगल ड्राइव लिंक एक्सेस।">
-        🔒 Instant automatic Google Drive access delivered immediately after payment.
+      <div class="mt-4 p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center gap-2.5 text-left">
+        <i class="fa-solid fa-envelope-circle-check text-emerald-400 text-lg shrink-0"></i>
+        <div class="text-[11px] text-emerald-200 leading-snug">
+          <strong class="text-white">Instant Email Delivery:</strong> Payment complete hote hi Google Drive access links aapki Email ID par turant dispatch ho jayegi!
+        </div>
+      </div>
+
+      <p class="text-center text-[11px] text-slate-400 mt-3" data-en="🔒 100% Safe &amp; Verified Payment via Razorpay." data-hi="🔒 रेज़रपे द्वारा 100% सुरक्षित एवं सत्यापित भुगतान।">
+        🔒 100% Safe &amp; Verified Payment via Razorpay.
       </p>
 
     </div>
@@ -2173,6 +2223,13 @@
     // Modal Control
     function openPaymentModal() {
       document.getElementById('payment-modal').classList.remove('hidden');
+      if (typeof fbq === 'function') {
+        fbq('track', 'InitiateCheckout', {
+          content_name: '20,000+ Vastu House Plans Bundle',
+          value: 499,
+          currency: 'INR'
+        });
+      }
     }
     function closePaymentModal() {
       document.getElementById('payment-modal').classList.add('hidden');
